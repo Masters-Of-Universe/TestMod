@@ -1,0 +1,10 @@
+{
+  "homepage": "https://github.com/MouTeam/TestMod",
+  "1.12": {
+    "0.1": "https://github.com/MouTeam/TestMod"
+  },
+  "promos": {
+    "1.12-latest": "0.1",
+    "1.12-recommended": "0.1"
+  }
+}
