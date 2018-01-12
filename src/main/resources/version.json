@@ -1,11 +1,11 @@
 {
   "homepage": "https://github.com/MouTeam/TestMod",
-  "1.12": {
-    "0.1": "See https://github.com/MouTeam/TestMod",
-    "0.2": "See https://github.com/MouTeam/TestMod"
-  },
   "promos": {
-    "1.12-latest": "0.2",
-    "1.12-recommended": "0.2"
+    "1.12.2-latest": "0.2.0",
+    "1.12.2-recommended": "0.2.0"
+  },
+  "1.12.2": {
+    "0.1.0": "See https://github.com/MouTeam/TestMod",
+    "0.2.0": "See https://github.com/MouTeam/TestMod"
   }
 }

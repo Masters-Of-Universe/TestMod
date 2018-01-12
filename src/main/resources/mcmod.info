@@ -5,7 +5,7 @@
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "http://mouteam.fr",
-  "updateUrl": "https://raw.githubusercontent.com/MouTeam/TestMod/feat/travis-ci/src/main/resources/version.json",
+  "updateUrl": "${updatejson}",
   "authorList": ["Mou Team"],
   "credits": "https://github.com/MouTeam",
   "logoFile": "",

@@ -7,8 +7,9 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 @Mod(
         modid = References.MOD_ID,
-        name = References.MOD_NAME
-        //version = References.VERSION
+        name = References.MOD_NAME,
+        version = References.VERSION,
+        updateJSON = References.MOD_UPDATE_URL
 )
 public class TestMod {
     @EventHandler

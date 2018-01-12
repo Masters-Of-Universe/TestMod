@@ -42,6 +42,7 @@ minecraft {
 
     replaceIn "References.java"
     replace "@VERSION@", mod_version
+    replace "@UPDATE_URL@", mod_update_url
 }
 
 dependencies {
@@ -81,7 +82,8 @@ processResources {
         include 'mcmod.info'
 
         // replace version and mcversion
-        expand 'version': mod_version, 'mcversion': project.minecraft.version
+        expand 'version': mod_version, 'mcversion': project.minecraft.version, 'updatejson': mod_update_url
+
     }
 
     // copy everything else except the mcmod.info
